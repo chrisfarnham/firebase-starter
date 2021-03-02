@@ -1,0 +1,1 @@
+{"version":3,"sources":["dice_and_clocks/subs.cljs"],"mappings":";AAIA,AAAA,AAACA,AAEA,AAAKC;AAAL,AACE,AAAA,AAAOA","names":["re_frame.core.reg_sub","db"],"sourcesContent":["(ns dice-and-clocks.subs\n  (:require\n   [re-frame.core :as re-frame]))\n\n(re-frame/reg-sub\n ::name\n (fn [db]\n   (:name db)))\n"]}

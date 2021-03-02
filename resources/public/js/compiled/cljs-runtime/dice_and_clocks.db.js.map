@@ -1,0 +1,1 @@
+{"version":3,"sources":["dice_and_clocks/db.cljs"],"mappings":";AAEA,AAAA,AAAA,AAAA,AAAKA","names":["dice-and-clocks.db/default-db"],"sourcesContent":["(ns dice-and-clocks.db)\n\n(def default-db\n  {:name \"re-frame\"})\n"]}
